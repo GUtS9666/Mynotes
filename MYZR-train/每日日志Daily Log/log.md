@@ -28,3 +28,5 @@ pcb的开发也要特别注意规范的流程：pcb->焊盘->封装->PCB图->布
 5. 放置丝印线，在此为了方便放线，需要设置隔点间距（此处设置为0.1）。丝印线设置为放置在Package Geometry的silkscreen_Top（丝印层），然后在color dialog中设置丝印层的颜色为黄色，最后在装配线的边角放置丝印线
 6. 放置位号（Ref Des的丝印层放器件白色名字，装配层蓝色名字），一脚标示（在Package Geometry丝印层第一个引脚放置小圆圈）和后面以五为周期放置标示以说明（顺\逆）时针方向，value（在Component Value的丝印层放#VAL）
 7. 放置铜皮（shape->retangluar，封装层的place_bound_Top）设置占地面积，最后设置线的最大高度（setup->Areas-Package Height）MAX height.可能还要极性标识
+* 晚上创了有四个圆形通孔焊盘的pcb封装，步骤相同，就是第一次搞的时候不知道为什么原点偏移了
+### 星期四
